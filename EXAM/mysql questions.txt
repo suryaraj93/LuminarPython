@@ -1,0 +1,24 @@
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\employee.csv' 
+INTO TABLE employee_exam
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
+
++------+-------+-----------+----------------+-------+
+| id   | name  | desig     | mailid         | sal   |
++------+-------+-----------+----------------+-------+
+|  100 | john  | testing   | john@gmail.com | 15000 |
+|  101 | ann   | developer | ann@gmail.com  | 16000 |
+|  102 | tom   | testing   | tom@gmail.com  | 15000 |
+|  103 | danie | testing   | danie@gmail    | 25000 |
++------+-------+-----------+----------------+-------+
+
+
+select desig,count(*) as counts from employee_exam group by desig;
+
++-----------+--------+
+| desig     | counts |
++-----------+--------+
+| testing   |      3 |
+| developer |      1 |
++-----------+--------+
