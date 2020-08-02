@@ -1,0 +1,33 @@
+var num=Number(prompt("Enter number between 1 and 7"));
+if(num==1)
+{
+    alert("Monday");
+    }
+else if(num==2)
+{
+    alert("Tuesday");
+}
+else if(num==3)
+{
+   alert("Wednesday");
+    }
+else if(num==4)
+{
+    alert("Thursday");
+    }
+else if(num==5)
+{
+    alert("Friday");
+    }
+else if(num==6)
+{
+    alert("Saturday");
+    }
+else if(num==7)
+{
+  alert("Sunday");
+  }
+else
+{
+    alert("number not valid");
+}

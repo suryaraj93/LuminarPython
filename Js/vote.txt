@@ -1,0 +1,9 @@
+var age=prompt("Enter age");
+if (age>=18)
+{
+alert("You can vote");
+}
+else
+{
+alert("you cant vote")
+}

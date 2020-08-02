@@ -1,0 +1,27 @@
+var a= Number(prompt("mark 1: "));
+var b= Number(prompt("mark 2: "));
+var c= Number(prompt("mark 3: "));
+var total=Number(a+b+c);
+alert(total);
+if(total>145)
+    {
+    alert("A+");
+    }
+else if((total>140)&&(total<=145))
+    {
+    alert("A");
+    }
+else if((total>135)&&(total<=140)){
+    alert("B+");
+    }
+else if((total>130)&&(total<=135))
+    {
+    alert("B");
+    }
+else if(total<=130)
+    {
+    alert("Failed");
+    }
+else{
+    alert("INVALID");
+    }

@@ -1,0 +1,15 @@
+var num1=Number(prompt( "number 1: "));
+var num2=Number(prompt("number 2: "));
+var num3=Number(prompt("number 3:"));
+if((num1>num2)&&(num1>num3))
+{
+ alert("Max = "+num1);
+ }
+if((num2>num1)&(num2>num3))
+{
+    alert("max="+num2);
+    }
+if((num3>num1)&(num3>num2))
+{
+    alert("max="+num3);
+    }

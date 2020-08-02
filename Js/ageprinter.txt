@@ -1,0 +1,13 @@
+
+var bdate=Number(prompt("Enter the birth date: "));
+var bmonth=Number(prompt("Enter the birth month: "));
+var byear=Number(prompt("Enter the birth year"));
+
+years=(cyear-byear);
+//alert(years);
+if(bmonth<cmonth){
+    if(bdate<cdate){
+        years=years-1;
+        }
+        }
+alert("Age="+years+"Years");
